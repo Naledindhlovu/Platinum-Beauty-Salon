@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIQUE CHAM BEAUTY LOUNGE</title>
+    <link rel ="stylesheet" href = "style.css">
+    <link rel ="stylesheet" href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <meta name = "viewpoint" content = "width=device-width, initial-scale-1">
+    <link href = "https:/fonts.googleeapis.com/css?
+    family=kaushan+script|poppins&display=swap" rel="= stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+   
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <section id="logo">
+    <img src="images/new.logo.jpg" class="logo">
+   </section>
+   
+    
+  
+    <section id ="Bpic">
+        <div id ="Nav">
+            <nav class="navbar navbar-dark bg-primary">
+                <ul class="menu">
+                    <li><a href ="#" style="text-decoration: none;">HOME</a></li>
+                    <li><a href ="#features"  style="text-decoration: none;">FEATURES</a></li>
+                    <li><a href="service.html"  style="text-decoration: none;">SERVICES </a></li>
+                    <li><a href="contact.html" style="text-decoration: none;">CONTACT</a></li>
+                    <li><a href="appoitnment.html"  style="text-decoration: none;">BOOK APPOITMENT </a></li>
+                </ul>
+            </nav>
+            
+            
+        </div>
+        
+        <div class = "Bpic-text">
+            <h1>UNIQUE CHAM BEAUTY LOUNGE</h1>
+            <p>"perfaction with every stroke"</p>
+            <div class = "Bpic-btn"> 
+                <a href = "#features"><span></span> Read More</a>
+            </div>
+        </div>
+    </section>
+    
+    <!---
+ <div id="menuBtn">
+     <img src ="images/menuIc.png" id="menu">
+
+ </div>
+-->
+ <!--features-->
+ <section id="features">
+    <div class=" title-text">
+        <p>FEATURES</p>
+        <h1>Why Choose Us</h1>
+    </div>
+    <div class = "features-box">
+        <div class = "features">
+            <h1>Experienced Staff</h1>
+             <div class = "features-desc">
+             <div class = "features-icon">
+                <img src="images/experience.jpg">
+                
+              </div>
+              <div class = "features-text">
+                <p> Platnum Beauty Salon has the most Experienced stylist...</p>
+        </div>
+        
+    </div>
+        <h1>Pre Booking Online</h1>
+        <div class = "features-desc">
+        <div class = "features-icon">
+            <img src="images/r-check.jpg">
+        </div>
+        <div class = "features-text">
+           <p> With UNIQUE CHAM BEAUTY LOUNGE you can pre book an appoitment online rather than going to the salon and find  a long queue</p>
+                </div>
+                </div>   
+           <h1>Affordable Cost</h1>
+                 <div class = "features-desc">
+            <div class = "features-icon">
+                <img src="images/check.jpg">
+            </div>
+            <div class = "features-text">
+               <p>At UNIQUE CHAM BEAUTY LOUNGE you will find at service you prefer at an Affordable price</p>
+                   </div>
+                   </div> 
+                </div>
+        
+        <div class = "features-img">
+           <img src="images/picc.jpg">
+        </div>
+    </div>
+ </section>
+ <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <p>copyright; 2024 UNIQUE CHAM BEAUTY LOUNGE. All rights reserved.</p>
+      </div>
+    </div>
+    </footer>
+
+ <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+    menuBtn.onclick= function()
+    {
+        if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0"
+        menu.src = "images/clearIc.png";
+     
+    }
+
+    else{
+        sideNav.style.right = "-250px"
+        menu.src = "images/menuIc.png";
+     
+
+    }
+
+
+}
+ </script>
+ <script src="js/jquery.min.js"></script>
+ <script src="js/popper.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/jquery.validate.min.js"></script>
+ <script src="js/main.js"></script>
+ <script>
+ const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=site%3A+';
+      const site = 'pagedart.com';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + site + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+      </script>
+</body>
+</html>
